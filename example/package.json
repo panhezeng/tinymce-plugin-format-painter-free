@@ -1,0 +1,60 @@
+{
+  "name": "@panhezeng/tinymce-plugin-format-painter-free-example",
+  "version": "",
+  "description": "",
+  "keywords": [],
+  "homepage": "",
+  "bugs": {},
+  "license": "",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "contributors": [],
+  "files": [],
+  "main": "",
+  "browser": "",
+  "bin": {},
+  "repository": {},
+  "scripts": {
+    "lint": "eslint --fix 'src/**/*.{js,ts,jsx,vue}'",
+    "dev": "webpack-dev-server --mode development --open --hot",
+    "build": "npm run lint && webpack --mode production"
+  },
+  "config": {},
+  "devDependencies": {
+    "@babel/cli": "latest",
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@babel/preset-react": "latest",
+    "babel-eslint": "latest",
+    "babel-loader": "latest",
+    "clean-webpack-plugin": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-prettier": "latest",
+    "eslint-plugin-react": "latest",
+    "html-webpack-plugin": "latest",
+    "prettier": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "shelljs": "latest",
+    "tinymce": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest"
+  },
+  "peerDependencies": {
+    "tinymce": "latest"
+  },
+  "engines": {},
+  "private": false,
+  "browserslist": [
+    "maintained node versions",
+    "not dead",
+    "> 1%",
+    "Firefox ESR",
+    "ie 11"
+  ]
+}

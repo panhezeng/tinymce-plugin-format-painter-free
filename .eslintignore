@@ -1,0 +1,5 @@
+/dist/**
+/docs/**
+/static/**
+/coverage/**
+*.min.js
